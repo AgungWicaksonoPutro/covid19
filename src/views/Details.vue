@@ -65,4 +65,14 @@ button{
     font-weight: 500;
     font-size: 20px;
 }
+
+@media (max-width: 360px) {
+  .title{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  button{
+    font-size: 12px;
+  }
+}
 </style>
