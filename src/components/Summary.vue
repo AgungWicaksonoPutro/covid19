@@ -2,7 +2,7 @@
     <b-container class="summary shadow-sm">
         <p>{{getGlobal.Date === undefined ? 'Tanggal: ' + getDate(new Date()) : 'Updated Global Data: ' + getDate(getGlobal.Date)}}</p>
         <b-row no-gutters class="row">
-            <b-col class="case" xl="5" lg="5" md="5" sm="5" cols="12">
+            <b-col class="case" xl="5" lg="5" md="6" sm="12" cols="12">
                 <div class="card total-confirmed">
                     <p>Total Confirmed</p>
                     <h4>{{setNumber(getGlobal.TotalConfirmed)}}</h4>
@@ -28,7 +28,7 @@
                     <h4>{{setNumber(getGlobal.NewRecovered)}}</h4>
                 </div>
             </b-col>
-            <b-col xl="7" lg="7" md="7" sm="7" cols="12">
+            <b-col xl="7" lg="7" md="6" sm="12" cols="12">
                 <h4 class="title text-center">Top 3 Confirmed Cases</h4>
                 <Chart
                 :chartData="getChartData"
@@ -142,5 +142,17 @@ export default {
 .card p{
     margin: 0;
     color: #b4b4b4;
+}
+
+@media (max-width: 360px) {
+    .card{
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .card{
+        flex-basis: 100%;
+    }
 }
 </style>

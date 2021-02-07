@@ -33,7 +33,7 @@ export default {
             ticks: {
               min: 0,
               max: 30000000,
-              stepSize: 5000000,
+              stepSize: 3000000,
               reverse: false,
               beginAtZero: true
             }

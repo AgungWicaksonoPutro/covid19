@@ -30,4 +30,21 @@ export default {
     margin: 0;
     font-size: 14px;
 }
+
+@media (max-width: 360px) {
+    .bedge{
+        visibility: hidden;
+    }
+}
+@media (max-width: 550px) {
+    .bedge{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    .bedge{
+        visibility: hidden;
+    }
+}
 </style>
