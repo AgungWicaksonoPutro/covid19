@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <h1 align="center">Frontend POS APP Icafe</h1>
+  <h1 align="center">Covid19</h1>
 
   <p align="center">
     <a href="https://frontend-covid19.agungwp.site/login">View Demo</a>
