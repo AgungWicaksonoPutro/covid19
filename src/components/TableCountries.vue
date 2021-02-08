@@ -1,8 +1,8 @@
 <template>
 <b-container class="mt-3 countries shadow-sm">
-    <div class="header d-flex mb-3">
+    <div class="header d-flex flex-wrap mb-3">
         <h4>Data By Country</h4>
-        <b-input-group class="ml-auto">
+        <b-input-group class="search ml-auto">
             <b-form-input
                 id="filter-input"
                 v-model="filter"
@@ -143,8 +143,11 @@ export default {
     background-color: #F5F5FF;
     color: #5A33E4;
 }
+h4{
+    flex-basis: 50%;
+  }
 .input-group{
-    width: 30%;
+    flex-basis: 50%;
 }
 .private{
   border: none;
@@ -152,5 +155,20 @@ export default {
   border-radius: 20px;
   background-color: rgb(255, 239, 239);
   color: rgb(212, 69, 69);
+}
+
+@media (max-width: 360px) {
+  h4{
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  h4{
+      flex-basis: 100%;
+    }
+    .search{
+      flex-basis: 100%;
+    }
 }
 </style>
