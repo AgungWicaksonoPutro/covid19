@@ -11,7 +11,7 @@
   </p>
 </p>
 
-![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/Login.png)
+![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/OverviewGlobalCasesEdited.png)
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ The Covid19 Data Report Application Globally Intended For Job Application Tests.
 
 ![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/Login.png)
 ![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/LoginGoogleWithFirebase.PNG)
-![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/OverviewGlobalCases.png)
+![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/OverviewGlobalCasesEdited.png)
 ![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/OverviewGlobalByContry.png)
 ![Image Banner](https://github.com/AgungWicaksonoPutro/covid19/blob/main/img/Details.png)
 
