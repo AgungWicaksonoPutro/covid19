@@ -38,6 +38,13 @@ export default {
   },
   mounted () {
     this.getSummary()
+      .then((res) => {
+        this.$toastr.s('Success', 'Data Updated!')
+      })
+      .catch((err) => {
+        console.log(err)
+        this.$toastr.e('Error', 'Iam Sorry Internal Server Error, Please Refresh Page!')
+      })
   }
 }
 </script>
