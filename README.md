@@ -73,7 +73,7 @@ npm run serve || yarn serve
 
 ---
 
-## Resource
+## Resources
 
 - [API Covid19](https://documenter.getpostman.com/view/10808728/SzS8rjbc)
 - [covid-19-ui-kit](https://www.bypeople.com/xd-sketch-covid-19-ui-kit/)
