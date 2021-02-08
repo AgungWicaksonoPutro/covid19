@@ -114,9 +114,11 @@ export default {
       this.getByCountryLive(url)
         .then(res => {
           this.$router.push('/details')
+          this.$toastr.s('Success', 'Data Updated!')
         })
         .catch(err => {
           console.log(err)
+          this.$toastr.e('Error', 'Iam Sorry Internal Server Error, Please Refresh Page!')
         })
     }
   }
